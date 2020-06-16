@@ -10,7 +10,6 @@
     <!--    google font area end-->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -20,13 +19,16 @@
     <header id="header-part">
         <div class="container">
             <div class="row">
-                <div class="col-xl-12 col-lg-12">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <nav class="navbar navbar-expand-xxl navbar-light">
                         <a class="navbar-brand" href="#">
                             <!-- its for logo -->
-                            <img src="img/coffeat.png" alt="logo img not found" class="img-fluid">
+                            <div class="logo">
+                                <img src="img/coffeat.png" alt="logo img not found" class="img-fluid">
+                            </div>
                         </a>
                         <div class="login-area ml-auto">
+                            <!-- its for form -->
                             <ul class="list-inline">
                                 <li class="list-inline-item"><a href="#">login</a></li>
                                 <li class="list-inline-item"><a href="#">sign up</a></li>
@@ -35,18 +37,28 @@
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                         </button>
-
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+                            <!-- its for menu -->
                             <ul class="navbar-nav ml-auto">
                                 <li class="nav-item active">
                                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Link</a>
+                                    <a class="nav-link" href="#feature-part">feature</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#introduction">introduction</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#testimonium-part">testimonial</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#around-part">location</a>
                                 </li>
                             </ul>
                         </div>
                     </nav>
+                    <!-- its for header content -->
                     <div class="header-content text-center">
                         <h4>Find your favorite</h4>
                         <h2>Coffee</h2>
@@ -62,29 +74,35 @@
     <section id="feature-part">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                    <!-- its for icon -->
                     <div class="feature-info text-center">
                         <div class="icon">
                             <i class="fas fa-mug-hot"></i>
                         </div>
+                        <!-- its for text -->
                         <h2>GET INSPIRED</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat. </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                    <!-- its for icon -->
                     <div class="feature-info text-center">
                         <div class="icon">
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
-                        <h2>GET locadtion</h2>
+                        <!-- its for text -->
+                        <h2>GET location</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat. </p>
                     </div>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12">
+                    <!-- its for icon -->
                     <div class="feature-info text-center">
                         <div class="icon">
                             <i class="fas fa-user-friends"></i>
                         </div>
+                        <!-- its for text -->
                         <h2>GET social</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat. </p>
                     </div>
@@ -97,14 +115,12 @@
     <section id="introduction">
         <div class="container">
             <div class="row">
-                <div class="col-lg-7">
+                <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-12">
                     <div class="into-text">
                         <h4>INTRODUCING THE COFFEAT APP</h4>
                         <p>Morbi eget posuere dolor. Pellentesque cursus aliquet aliquet. Aeneanet felis sit amet diam mollis ullamcorper. Nullam consequat sem a ante vest ibulum tristique. Suspendisse tristique lacus ac mattis porta.</p>
-
                         <p>Vivamus ligula quam, vehicula non lacinia sed, faucibus sit amet libero. In libero dui, eleifend eu nisi id, egestas fringilla odio. In varius quam a mas sa hendrerit ullamcorper a eu justo. Suspendisse porta mattis convallis.
                             Aenean tempus ligula ac odio rhoncus, quis aliquam dolor accumsan.</p>
-
                         <p>Suspendisse aliquet felis consectetur libero congue, sed pulvinar diam malesuada. Duis vehicula a nibh id hendrerit. Donec sit amet ultrices ante, a mattis massa. </p>
                         <div class="icon-group">
                             <img src="img/app.jpg" alt=" app image not found" class="img-fluid">
@@ -112,7 +128,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5">
+                <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12">
                     <div class="image">
                         <img src="img/coffeat2.png" alt="img not found" class="img-fluid">
                     </div>
@@ -125,7 +141,8 @@
     <section id="testimonium-part">
         <div class="container">
             <div class="row img-slide">
-                <div class="col-lg-12">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <!-- its for carousel -->
                     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -134,11 +151,12 @@
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
-
                                 <div class="slider-componant">
+                                    <!-- its for carousel image -->
                                     <div class="tem-slider-img m-auto">
                                         <img src="img/01.jpg" alt=" img not found" class="img-fluid">
                                     </div>
+                                    <!-- its for carousel text -->
                                     <div class="tem-slider-text text-center">
                                         <p>"Si vous voulez mon avis concernant l'extrémité observée, il est nécessaire d’étudier la globalité des solutions de bon sens, parce que la nature a horreur du vide."</p>
                                         <p class="writer">- Salade de Banoui, Paris</p>
@@ -146,28 +164,30 @@
                                 </div>
                             </div>
                             <div class="carousel-item">
-
                                 <div class="slider-componant">
+                                    <!-- its for carousel image -->
                                     <div class="tem-slider-img">
                                         <img src="img/02.jpg" alt=" img not found" class="img-fluid">
-                                        <div class="tem-slider-text text-center">
-                                            <p>"Si vous voulez mon avis concernant l'extrémité observée, il est nécessaire d’étudier la globalité des solutions de bon sens, parce que la nature a horreur du vide."</p>
-                                            <p class="writer">- Salade de Banoui, Paris</p>
-                                        </div>
+                                    </div>
+                                    <!-- its for carousel text -->
+                                    <div class="tem-slider-text text-center">
+                                        <p>"Si vous voulez mon avis concernant l'extrémité observée, il est nécessaire d’étudier la globalité des solutions de bon sens, parce que la nature a horreur du vide."</p>
+                                        <p class="writer">- Salade de Banoui, Paris</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="slider-componant">
+                                    <!-- its for carousel image -->
                                     <div class="tem-slider-img">
                                         <img src="img/03.jpg" alt=" img not found" class="img-fluid">
-                                        <div class="tem-slider-text text-center">
-                                            <p>"Si vous voulez mon avis concernant l'extrémité observée, il est nécessaire d’étudier la globalité des solutions de bon sens, parce que la nature a horreur du vide."</p>
-                                            <p class="writer">- Salade de Banoui, Paris</p>
-                                        </div>
+                                    </div>
+                                    <!-- its for carousel text -->
+                                    <div class="tem-slider-text text-center">
+                                        <p>"Si vous voulez mon avis concernant l'extrémité observée, il est nécessaire d’étudier la globalité des solutions de bon sens, parce que la nature a horreur du vide."</p>
+                                        <p class="writer">- Salade de Banoui, Paris</p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
@@ -180,24 +200,27 @@
     <section id="around-part">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 text-center">
+                    <!-- its for title -->
                     <div class="title">
                         <h3>around to me</h3>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                     <div class="around-info">
                         <div class="row">
-                            <div class="col-lg-5">
+                            <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+                                <!-- its for map -->
                                 <div class="map-img">
                                     <img src="img/map.jpg" alt="map image not found" class="img-fluid">
                                 </div>
                             </div>
-                            <div class="col-lg-7 right-around-full">
+                            <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12 right-around-full">
                                 <div class="row">
-                                    <div class="col-lg-9">
+                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
+                                        <!-- its for content -->
                                         <div class="around-left-part">
                                             <h2><span>1</span>Coffee 1</h2>
                                             <ul class="list-inline">
@@ -206,14 +229,14 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
                                         <div class="arround-right-part">
                                             <h2>2.0 KM</h2>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-lg-9">
+                                <div class="row pt-4">
+                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
                                         <div class="around-left-part">
                                             <h2><span>1</span>Coffee 2</h2>
                                             <ul class="list-inline">
@@ -222,14 +245,14 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
                                         <div class="arround-right-part">
                                             <h2>2.0 KM</h2>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-lg-9">
+                                <div class="row pt-4">
+                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
                                         <div class="around-left-part">
                                             <h2><span>1</span>Coffee 3</h2>
                                             <ul class="list-inline">
@@ -238,14 +261,14 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
                                         <div class="arround-right-part">
                                             <h2>2.0 KM</h2>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-lg-9">
+                                <div class="row pt-4">
+                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
                                         <div class="around-left-part">
                                             <h2><span>1</span>Coffee 4</h2>
                                             <ul class="list-inline">
@@ -254,14 +277,14 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
                                         <div class="arround-right-part">
                                             <h2>2.0 KM</h2>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-lg-9">
+                                <div class="row pt-4">
+                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 col-12">
                                         <div class="around-left-part">
                                             <h2><span>1</span>Coffee 5</h2>
                                             <ul class="list-inline">
@@ -270,7 +293,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <div class="col-lg-3">
+                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col-12">
                                         <div class="arround-right-part">
                                             <h2>2.0 KM</h2>
                                         </div>
@@ -285,8 +308,20 @@
         </div>
     </section>
     <!-- around area end here -->
-
-
+    <!-- footer part start here -->
+    <footer id="footer-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <ul class="list-inline text-right">
+                        <li class="list-inline-item"><a href="#"><span class="font-weight-bold">DESIGN BY:</span></a></li>
+                        <li class="list-inline-item"><a href="#">www.e-banaoui.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer part end here -->
 
     <!-- google-play
 mobile-alt -->
@@ -295,7 +330,6 @@ mobile-alt -->
     <script src="js/jquery-2.2.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/fontawesome.min.js"></script>
-    <script src="js/slick.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
