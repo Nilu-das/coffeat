@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+/* font-family: 'Lato', sans-serif;
+
+font-family: 'Open Sans', sans-serif; */
+
+
+/* header part start here */
+
+#header-part {
+    background-image: url(../img/coffeat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+#header-part::before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(65, 61, 69, .6);
+}
+
+.header-content {
+    padding-top: 165px;
+    padding-bottom: 270px;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler-icon i {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.login-area ul li a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 20px;
+    margin-top: 18px;
+}
+
+.header-content h4 {
+    color: #DADADB;
+    font-size: 47px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.header-content h2 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 120px;
+    padding-bottom: 50px;
+}
+
+.header-content a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #30788B;
+    padding: 32px 99px;
+}
+
+
+/* header part end here */
+
+
+/* feature part start */
+
+#feature-part {
+    padding: 130px 0;
+}
+
+.feature-info .icon i {
+    width: 120px;
+    height: 120px;
+    border: 3px solid #101010;
+    border-radius: 50%;
+    line-height: 116px;
+    font-size: 45px;
+    color: #30788B;
+}
+
+.feature-info h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #101010;
+    padding: 20px 0 25px 0;
+    position: relative;
+}
+
+.feature-info h2::after {
+    position: absolute;
+    content: '';
+    width: 35%;
+    height: 1px;
+    top: 78%;
+    left: 33%;
+    background-color: #F57365;
+}
+
+.feature-info p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 17px;
+    columns: #6B6B6B;
+}
+
+
+/* feature end start */
+
+
+/* info part start here */
+
+#introduction {
+    background-color: #F7F7F7;
+    padding: 130px 0 0 0;
+}
+
+.into-text {
+    padding: 15% 0;
+}
+
+.into-text h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #101010;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.into-text p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #101010;
+    padding-bottom: 20px;
+}
+
+
+/* info part end here */
+
+
+/* testimonium part start here */
+
+#testimonium-part {
+    padding: 80px 0;
+    background-image: url(../img/333.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#testimonium-part::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(22, 47, 53, .9);
+}
+
+.slider-componant {
+    padding: 65px 0;
+}
+
+.img-slide {
+    z-index: 100;
+    position: relative;
+}
+
+.tem-slider-img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid #dddddd;
+    margin: auto;
+    display: block;
+}
+
+.tem-slider-text {
+    z-index: 100;
+    position: relative;
+    padding-top: 20px;
+}
+
+.text-slide {
+    z-index: 100;
+    position: relative;
+}
+
+.tem-slider-text p {
+    color: #8f9091;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.tem-slider-text .writer {
+    color: #8f9091;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+
+/* testimonium part end here */
+
+
+/*  */
+
+#around-part {
+    padding: 80px 0;
+}
+
+.title h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    color: #101010;
+    text-transform: uppercase;
+    padding-top: 120px;
+}
+
+.around-info {
+    background: #F7F7F7;
+    padding: 40px 10px 30px 20px;
+}
+
+.right-around-full {
+    padding: 10px 20px;
+}
+
+.around-left-part h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2497b6;
+}
+
+.around-left-part span {
+    color: #ffffff;
+    padding: 5px 16px;
+    background: #2497b6;
+    border-radius: 7px;
+    font-weight: 900;
+    margin-right: 17px;
+}
+
+.around-left-part ul {
+    padding-left: 68px;
+}
+
+.around-left-part ul li a {
+    color: #99a3b1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.arround-right-part h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2497b6;
+}
+
+
+/*     font-family: 'Lato', sans-serif;
+
+    font-family: 'Open Sans', sans-serif; */
