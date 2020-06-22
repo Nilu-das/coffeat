@@ -76,33 +76,6 @@
     #around-part {
         padding: 30px 0 50px 0;
     }
-    .title h3 {
-        padding-bottom: 30px;
-        font-size: 25px;
-    }
-    .map-img img {
-        width: 100%;
-        padding-bottom: 6%;
-    }
-    .around-left-part {
-        border-bottom: 2px solid #dddddd;
-        text-align: center;
-        padding-bottom: 5px;
-    }
-    .arround-right-part h2 {
-        text-align: center;
-        padding-bottom: 5%;
-        padding-top: 5px;
-    }
-    .around-left-part ul {
-        padding-left: 0;
-    }
-    .around-left-part h2 {
-        padding-bottom: 3%;
-    }
-    .around-left-part ul li a {
-        font-size: 19px;
-    }
     /* around area end here */
     /* footer area start here */
     .text-right {
@@ -202,28 +175,17 @@
     #around-part {
         padding: 40px 0 50px 0;
     }
-    .map-img {
-        width: 100%;
-        padding-bottom: 30px;
+    .num p {
+        font-size: 20px;
     }
-    .around-left-part h2 {
-        font-size: 25px;
+    .add-name h3 {
+        font-size: 20px;
     }
-    .arround-right-part h2 {
-        font-size: 25px;
-    }
-    .title h3 {
-        padding-bottom: 50px;
-        font-size: 25px;
-    }
-    .around-left-part ul {
-        padding-left: 60px;
-    }
-    .around-left-part ul li a {
+    .add-name p {
         font-size: 12px;
     }
-    .around-left-part ul li a i {
-        font-size: 23px;
+    .distance h3 {
+        font-size: 20px;
     }
     /* around area end here */
     /* footer area start here */
@@ -296,26 +258,8 @@
     #around-part {
         padding: 50px 0 90px 0;
     }
-    .around-left-part h2 {
-        font-size: 20px;
-    }
-    .arround-right-part h2 {
-        font-size: 20px;
-    }
-    .around-left-part span {
-        padding: 1px 10px;
-    }
-    .around-left-part ul {
-        padding-left: 50px;
-    }
-    .around-left-part ul li a i {
-        font-size: 20px;
-    }
-    .around-left-part ul li a {
-        font-size: 9px;
-    }
-    .right-around-full {
-        height: 170px;
+    .google-map {
+        margin-left: 13%;
     }
     /* around area end here */
 }
@@ -327,8 +271,17 @@
     .into-text {
         padding: 0;
     }
-    .around-left-part ul li a {
-        font-size: 12px;
+    .num p {
+        font-size: 20px;
+    }
+    .add-name h3 {
+        font-size: 20px;
+    }
+    .add-name p {
+        font-size: 11px;
+    }
+    .distance h3 {
+        font-size: 20px;
     }
 }
 
